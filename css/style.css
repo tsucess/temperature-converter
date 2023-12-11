@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	line-height: 1rem;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: url(../images/temperature-conversion-convert-temperature-icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+}
+
+.bg-image {
+	background-color: #ffffffc5;
+	position: relative;
+	height: 99.9vh;
+	top: -46rem;
+	z-index: 0;
+}
+
+.container {
+	position: relative;
+	top: 0;
+	margin: 4rem auto;
+	width: 19rem;
+	height: 80vh;
+	border-radius: 1rem;
+	display: flex;
+	justify-self: center;
+	align-self: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+}
+
+
+.hero_image {
+	background: #00d9ff;
+	width: 90%;
+	height: 4rem;
+	border-radius: 1rem 1rem 0 0;
+	overflow: hidden;
+	text-align: center;
+	color: #000000;
+}
+
+.hero_image h2 {
+	margin: 1.2rem auto;
+}
+
+.hero_image img {
+	width: 100%;
+}
+
+.app_section {
+	background-color: rgb(0, 94, 117);
+	width: 90%;
+	margin: 0 auto;
+	padding: 0.5rem 1rem;
+}
+
+.form_control {
+	display: flex;
+	margin: 1rem auto;
+	justify-content: center;
+	background: #ffffff;
+	padding: 0.2rem;
+	border-radius: 0.5rem;
+}
+
+.container .values {
+	padding: 0 1rem;
+	font-size: 1.2rem;
+	border-radius: 0.4rem;
+	width: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+}
+
+.container i.icon {
+	color: #000000;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	font-size: 1.2rem;
+	font-weight: 700;
+	overflow: hidden;
+}
+.container i.icon img {
+	width: 1rem;
+}
+
+.container i.celcius {
+	padding: 0.5rem 1rem;
+}
+.container i.icon img.c-icon {
+	width: 2rem;
+}
+
+.button_control
+{
+	display: flex;
+	margin: 1rem auto;
+	/* justify-content: center; */
+	padding: 0.2rem;
+	justify-content:space-evenly;
+}
+
+.btn {
+	border-radius: 0.5rem;
+	background: #00d9ff;
+	color: #000000;
+	padding: 1rem 2rem;
+}
+
+
+.description_section {
+	background-color: #00d9ff;
+	color: #000000;
+	padding: 1.5rem 1rem;
+	text-align: center;
+	width: 90%;
+	border-radius: 0 0 1rem 1rem;
+}
+
+.description_section p {
+	font-size: 0.8rem;
+}
+
+
+/* Responsiveness  */
+@media screen  and (min-width: 768px) {
+	.container {
+		width: 30rem;
+	
+	}
+	
+}
